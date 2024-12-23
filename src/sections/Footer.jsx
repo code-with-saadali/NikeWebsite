@@ -1,3 +1,4 @@
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
@@ -20,15 +21,10 @@ const Footer = () => {
             Get shoes ready for the new term at your nearest Nike store. Find
             Your perfect Size In Store. Get Rewards
           </p>
-          <div className='flex items-center gap-5 mt-8'>
-            {socialMedia.map((icon) => (
-              <div
-                className='flex justify-center items-center w-12 h-12 bg-white rounded-full hover:scale-110 hover:bg-red-500 duration-300 cursor-pointer hover:text-white'
-                key={icon.alt}
-              >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
-              </div>
-            ))}
+          <div className="icons flex items-center text-[32px] gap-5 pt-6">
+            <FaFacebook className="text-white cursor-pointer hover:scale-110 duration-300 hover:text-red-500"/>
+            <FaInstagram className="text-white cursor-pointer hover:scale-110 duration-300 hover:text-red-500"/>
+            <FaTwitter className="text-white cursor-pointer hover:scale-110 duration-300 hover:text-red-500"/>
           </div>
         </div>
 

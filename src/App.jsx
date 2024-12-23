@@ -1,4 +1,5 @@
 import { Nav } from "./components";
+import BackToTop from "./components/BacktoTop";
 import {
   CustomerReviews,
   Footer,
@@ -13,6 +14,7 @@ import {
 const App = () => {
   return (
     <main className="relative">
+       <BackToTop/>
       <Nav />
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />

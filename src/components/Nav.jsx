@@ -79,7 +79,7 @@ const Nav = () => {
                 <a
                   href={item.href}
                   className='font-montserrat text-lg text-slate-gray hover:text-black duration-300'
-                  onClick={() => setIsMenuOpen(false)} // Close menu after clicking link
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
                 </a>
@@ -89,7 +89,7 @@ const Nav = () => {
               <a
                 href='/'
                 className="font-montserrat text-lg text-slate-gray hover:text-black duration-300"
-                onClick={() => setIsMenuOpen(false)} // Close menu after clicking link
+                onClick={() => setIsMenuOpen(false)}
               >
                 Sign in
               </a>
@@ -98,7 +98,7 @@ const Nav = () => {
               <a
                 href='/'
                 className="font-montserrat text-lg text-slate-gray hover:text-black duration-300"
-                onClick={() => setIsMenuOpen(false)} // Close menu after clicking link
+                onClick={() => setIsMenuOpen(false)}
               >
                 Explore now
               </a>
